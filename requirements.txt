@@ -8,4 +8,5 @@ matplotlib>=3.8.0
 opencv-python>=4.8.0
 ultralytics>=8.0.0
 Pillow>=10.0.0
-rawpy>=1.2.0
+rawpy==0.25.1
+
