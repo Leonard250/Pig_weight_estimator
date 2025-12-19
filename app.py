@@ -22,7 +22,7 @@ st.markdown(
     <style>
     /* Main app background */
     .stApp {
-        background-color: 3D4127;
+        background-color: A47DAB;
         color: 000000;
     
     }
@@ -52,8 +52,6 @@ st.markdown(
     header{visibility: hidden;}
     #MainMenu {visibility: hidden;}
     footer {visibility: hidden;}
-
-    background-color: FFFFFF;
     </style>
 
 
