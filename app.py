@@ -132,15 +132,21 @@ st.markdown(
         transition: all 0.2s ease-in-out;
     }
 
-    /* Hover effect */
+    /* Hover effect for all tabs */
     button[data-baseweb="tab"]:hover {
         color: green;
     }
 
-     <style>
-    /* Active tab text color */
+    /* Active tab (default state) */
     button[data-baseweb="tab"][aria-selected="true"] {
         color: green;
+    }
+
+    button[data-baseweb="tab"][aria-selected="true"],
+    button[data-baseweb="tab"][aria-selected="true"]:hover,
+    button[data-baseweb="tab"][aria-selected="true"]:focus,
+    button[data-baseweb="tab"][aria-selected="true"]:active {
+        color: green !important;
     }
 
     /* Active tab indicator (the line underneath) */
