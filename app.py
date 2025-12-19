@@ -115,7 +115,6 @@ with tab1:
 with tab2:
     camera_img = st.camera_input("Capture a pig image")
     
-import streamlit as st
 
 st.markdown(
     """
@@ -127,7 +126,6 @@ st.markdown(
 
     /* Individual tabs */
     button[data-baseweb="tab"] {
-        background-color: #f0f2f6;
         border-radius: 8px;
         padding: 8px 16px;
         font-weight: 500;
@@ -136,7 +134,7 @@ st.markdown(
 
     /* Hover effect */
     button[data-baseweb="tab"]:hover {
-        background-color: #4CAF50;
+        background-color: #000000;
         color: white;
     }
 
