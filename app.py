@@ -49,6 +49,7 @@ st.write("Please make sure the image clearly shows the entire body parts of the 
 st.markdown(
     """
     <style>
+    header{visibility: hidden;}
     #MainMenu {visibility: hidden;}
     footer {visibility: hidden;}
 
