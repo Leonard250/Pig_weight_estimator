@@ -52,7 +52,7 @@ st.markdown(
     #MainMenu {visibility: hidden;}
     footer {visibility: hidden;}
 
-    background-color: #880085;
+    background-color: FFFFFF;
     </style>
 
 
