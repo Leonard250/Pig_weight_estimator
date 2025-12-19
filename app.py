@@ -158,6 +158,18 @@ st.markdown(
     """,
     unsafe_allow_html=True,
 )
+st.markdown(
+    """
+    <style>
+    .camera-box {
+        max-width: 500px;
+        margin: auto;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True,
+)
+
 
 if uploaded_img is not None:
     pig_img = uploaded_img
