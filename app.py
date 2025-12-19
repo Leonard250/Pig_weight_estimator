@@ -52,6 +52,7 @@ st.markdown(
     header{visibility: hidden;}
     #MainMenu {visibility: hidden;}
     footer {visibility: hidden;}
+    ._terminalButton_rix23_138{visibility: hidde;}
     </style>
 
 
